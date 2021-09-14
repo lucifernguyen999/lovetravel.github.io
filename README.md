@@ -1,1 +1,1 @@
-https://github.com/lucifernguyen999/lovetravel.github.io
+https://lucifernguyen999.github.io/lovetravel.github.io/
