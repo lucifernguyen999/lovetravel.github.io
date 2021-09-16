@@ -1,0 +1,38 @@
+@media (min-width: 1024px) {
+    .tablet__header__container {
+        display: none;
+    }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__nav,
+    .review__slider__control,
+    .slider__control,
+    .header__container {
+        display: none;
+    }
+
+    .tablet__header__container {
+        height: 70px;
+        display: flex;
+        justify-content: space-around;
+        background-color: var(--primary-color);
+    }
+
+    .header__container__logo--nav {
+        height: 100%;
+        color: var(--white-color)
+    }
+
+    .tablet__header__container__icon {
+        font-size: 2rem;
+        color: var(--white-color);
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 739px) {
+
+}

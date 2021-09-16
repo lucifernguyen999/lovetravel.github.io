@@ -717,7 +717,7 @@
 .destination__section--wrap {
     display: flex;
     justify-content: center;
-    width: 1300px;
+    max-width: 1300px;
     position: relative;
 }
 
@@ -1594,8 +1594,8 @@
 }
 
 .travel__review__list {
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
     min-width: 490px;
 }
 
